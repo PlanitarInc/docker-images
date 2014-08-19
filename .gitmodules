@@ -1,0 +1,21 @@
+[submodule "docker-image-base"]
+	path = docker-image-base
+	url = https://github.com/PlanitarInc/docker-image-base
+[submodule "docker-image-dev-base"]
+	path = docker-image-dev-base
+	url = https://github.com/PlanitarInc/docker-image-dev-base
+[submodule "docker-image-dev-go"]
+	path = docker-image-dev-go
+	url = https://github.com/PlanitarInc/docker-image-dev-go
+[submodule "docker-image-monitord"]
+	path = docker-image-monitord
+	url = https://github.com/PlanitarInc/docker-image-monitord
+[submodule "docker-image-riemann"]
+	path = docker-image-riemann
+	url = https://github.com/PlanitarInc/docker-image-riemann
+[submodule "docker-image-graphite"]
+	path = docker-image-graphite
+	url = https://github.com/PlanitarInc/docker-image-graphite
+[submodule "docker-image-skydns"]
+	path = docker-image-skydns
+	url = https://github.com/PlanitarInc/docker-image-skydns
