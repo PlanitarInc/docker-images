@@ -22,3 +22,6 @@
 [submodule "docker-image-postgresql"]
 	path = docker-image-postgresql
 	url = https://github.com/PlanitarInc/docker-image-postgresql
+[submodule "docker-image-userdb"]
+	path = docker-image-userdb
+	url = https://github.com/PlanitarInc/docker-image-userdb
