@@ -22,7 +22,7 @@ def get_base_image(d):
 
 def get_image_name(d):
     for line in open(join(d, 'Makefile')):
-        m = re.match('^\tdocker build -t (planitar/[-a-z]+)', line)
+        m = re.match('^\tdocker push (planitar/[-a-z]+)', line)
         if m != None:
             return m.group(1)
 
