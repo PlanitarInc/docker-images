@@ -84,6 +84,10 @@ print 'push: build'
 for image in tree.nodes:
     print '\tdocker push %s' % image.name
 print ''
+print 'clean: '
+for image in tree.nodes:
+    print '\tmake -C %s clean' % image.dir
+print ''
 for image in tree.nodes:
     if image.isRoot:
         print '%s:' % buildtarget(image.name)
