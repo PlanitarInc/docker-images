@@ -94,4 +94,5 @@ for image in tree.nodes:
     else:
         print '%s: %s' % (buildtarget(image.name), buildtarget(image.basename))
     print '\tmake -C %s build' % image.dir
+    print '\tmake -C %s test' % image.dir
     print ''
