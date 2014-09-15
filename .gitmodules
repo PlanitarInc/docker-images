@@ -25,3 +25,6 @@
 [submodule "docker-image-userdb"]
 	path = docker-image-userdb
 	url = https://github.com/PlanitarInc/docker-image-userdb
+[submodule "docker-image-fakes3"]
+	path = docker-image-fakes3
+	url = https://github.com/PlanitarInc/docker-image-fakes3.git
